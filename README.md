@@ -22,7 +22,7 @@ npm run dev
 
 Acesse a aplicação em produção por este link:
 
-🔗 **https://lovable.dev/projects/14928c73-a243-4dab-8762-103d0ac7e8af**
+🔗 **https://portfolio-pied-zeta-erprt2nnyc.vercel.app/**
 
 ## Preview da aplicação
 
