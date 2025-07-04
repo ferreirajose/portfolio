@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -11,22 +13,20 @@ const Footer = () => {
             <h3 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
               Frontend Developer
             </h3>
-            <p className="text-sm text-muted-foreground mt-1">
-              Creating beautiful web experiences
-            </p>
           </div>
 
           {/* Social Links */}
           <div className="flex gap-3">
-            <Button variant="outline" size="icon" className="hover:shadow-glow transition-all duration-300">
-              <Github className="h-4 w-4" />
-            </Button>
-            <Button variant="outline" size="icon" className="hover:shadow-glow transition-all duration-300">
-              <Linkedin className="h-4 w-4" />
-            </Button>
-            <Button variant="outline" size="icon" className="hover:shadow-glow transition-all duration-300">
-              <Mail className="h-4 w-4" />
-            </Button>
+            <Link to="https://github.com/ferreirajose">
+              <Button variant="outline" size="icon" className="hover:shadow-glow transition-all duration-300">
+                <Github className="h-4 w-4" />
+              </Button>
+            </Link>
+            <Link to="https://www.linkedin.com/in/ferreirajosesilva/">
+              <Button variant="outline" size="icon" className="hover:shadow-glow transition-all duration-300">
+                <Linkedin className="h-4 w-4" />
+              </Button>
+            </Link>
           </div>
         </div>
 

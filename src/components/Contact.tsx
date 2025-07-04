@@ -47,7 +47,7 @@ const Contact = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-muted-foreground">+55 (83) 9696-9147</p>
               </CardContent>
             </Card>
 
@@ -59,7 +59,7 @@ const Contact = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">San Francisco, CA</p>
+                <p className="text-muted-foreground">João Pessoa - PB, 58073-045</p>
               </CardContent>
             </Card>
           </div>
