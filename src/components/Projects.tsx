@@ -7,17 +7,17 @@ const Projects = () => {
   const projects = [
     {
       title: "Zé Calander",
-      description: "Modern e-commerce platform built with React and TypeScript, featuring responsive design and smooth user experience.",
+      description: "Zé Calander is a calendar made with JavaScript, HMTL and CSS with 3 design styles to choose from: Bootrasp, Material and the custom style that is the default.",
       tech: ["HTML", "JavaScript", "CSS"],
-      image: "https://github.com/ferreirajose/ze-calander/blob/main/imgs/style-default.png",
+      image: "assets/style-default.png",
       github: "https://github.com/ferreirajose/ze-calander",
       live: "https://ze-calander.vercel.app/"
     },
     {
       title: "Rick Morty",
-      description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      description: "Multilingual project made with Angular 18, with favorites page, made to search about the characters of the series Rick and Morty.",
       tech: ["TypeScript", "Bootstrap", "Angular"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
+      image: "assets/rick-morty.png",
       github: "https://github.com/ferreirajose/rick-morty",
       live: "https://rick-morty-pied-seven.vercel.app/home"
     }
