@@ -27,18 +27,12 @@ const About = () => {
             <Card className="bg-gradient-card border-border/50 shadow-card">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">
-                  Frontend Developer & UI/UX Enthusiast
+                  Frontend Developer
                 </h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  With over 3 years of experience in web development, I specialize in 
-                  creating responsive, accessible, and performant web applications. 
-                  I'm passionate about staying up-to-date with the latest technologies 
-                  and best practices in frontend development.
+                  Web Designer Technician from Faculdade Idez (Estácio) 2013, graduated in Internet Systems from Unipê - Centro Universitário de João Pessoa, with approximately 9 years of experience with Front End. Working in large multinationals such as INDRA, NTT Data, SONDA, Serasa Experian in large-scale projects, for clients in the public and private financial segment, as well as the public sector. Working with the main technologies aimed at the web ecosystem such as TypeScript, Angular, React, ES6 among others, with experience in agile methodologies such as kanban and scrum.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  When I'm not coding, you'll find me exploring new design trends, 
-                  contributing to open-source projects, or learning about emerging 
-                  web technologies.
                 </p>
               </CardContent>
             </Card>
