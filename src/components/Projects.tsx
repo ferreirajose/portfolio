@@ -6,28 +6,20 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Zé Calander",
       description: "Modern e-commerce platform built with React and TypeScript, featuring responsive design and smooth user experience.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Stripe"],
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      github: "#",
-      live: "#"
+      tech: ["HTML", "JavaScript", "CSS"],
+      image: "https://github.com/ferreirajose/ze-calander/blob/main/imgs/style-default.png",
+      github: "https://github.com/ferreirajose/ze-calander",
+      live: "https://ze-calander.vercel.app/"
     },
     {
-      title: "Task Management App",
+      title: "Rick Morty",
       description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["Vue.js", "Node.js", "Socket.io", "MongoDB"],
+      tech: ["TypeScript", "Bootstrap", "Angular"],
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-      github: "#",
-      live: "#"
-    },
-    {
-      title: "Portfolio Website",
-      description: "Responsive portfolio website with smooth animations, dark theme, and PWA capabilities for optimal performance.",
-      tech: ["Next.js", "Framer Motion", "SASS", "PWA"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-      github: "#",
-      live: "#"
+      github: "https://github.com/ferreirajose/rick-morty",
+      live: "https://rick-morty-pied-seven.vercel.app/home"
     }
   ];
 
